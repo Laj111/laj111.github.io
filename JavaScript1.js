@@ -5,7 +5,7 @@
 
 	if (name == "lyj" && pass == "20020208"){
 		alert("登录成功！");
-		window.document.f.action = "https://www.baidu.com/";  //此处设置登录后跳转页面
+		window.document.f.action = "/关雎.html";  //此处设置登录后跳转页面
 		window.document.f.submit();
 	}
 	else if(name == "gt" && pass == "941009"){
