@@ -10,7 +10,7 @@
 	}
 	else if(name == "gt" && pass == "941009"){
 		alert("登录成功！");
-		window.document.f.action = "https://www.baidu.com/";  //此处设置登录后跳转页面
+		window.document.f.action = "/gt.html";  //此处设置登录后跳转页面
 		window.document.f.submit();
 	}
 	 
